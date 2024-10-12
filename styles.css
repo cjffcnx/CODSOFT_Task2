@@ -866,3 +866,73 @@ p.card-text {
 a {
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        font-size: 14px;
+    }
+
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+
+    form input,
+    form button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 95%;
+    }
+
+
+    section {
+        padding: 20px;
+    }
+
+
+    .button {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 769px) {}
